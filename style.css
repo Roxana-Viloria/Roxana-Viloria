@@ -456,7 +456,7 @@ body{
     .menumobile ul{
         position: fixed;
         top: 60px;
-        left: 0;
+        left: 100;
         transition: all 0.8s ease;
         transform: translateX(100vw);
         list-style-type: none;
