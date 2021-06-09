@@ -439,6 +439,7 @@ body{
 
     .menu-socialmedia ul{
         justify-content: center;
+        
     }
 
     .menumobile ul li{
@@ -449,6 +450,7 @@ body{
         color: white;
         font-family: 'IBM Plex Mono', monospace;
         font-size: 16px;
+        
     }
 
     .menumobile ul{
@@ -457,6 +459,7 @@ body{
         left: 0;
         transition: all 0.8s ease;
         transform: translateX(100vw);
+        list-style-type: none;
     }
 
     #burger-button{
