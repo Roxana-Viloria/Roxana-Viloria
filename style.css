@@ -379,7 +379,7 @@ svg:hover {
     .section-episodes{
         margin-left: 16px;
         margin-right: 16px;
-        padding: 150px 0;
+        padding: 40px 0;
     }
 
     .episodes{
@@ -467,9 +467,9 @@ svg:hover {
     .menumobile ul{
         position: fixed;
         top: 60px;
-        left: 0;
+        left: 100vw;
         transition: all 0.8s ease;
-        transform: translateX(100vw);
+        
         list-style-type: none;
     }
 
@@ -479,7 +479,7 @@ svg:hover {
     }
 
     #burger-button:checked ~ ul{
-        transform: translateX(0);
+        transform: translateX(-100vw);
     }
 
     .menu-button{
@@ -489,10 +489,6 @@ svg:hover {
 
     .menumobile{
         display: block;
-    }
-
-    .menumobile ul{
-        left: 0;
     }
 
     .menudesktop{
@@ -552,6 +548,15 @@ svg:hover {
         width: 90%;
     }
 
+    .container-blue{
+        clip-path: polygon(0 3%, 100% 0%, 100% 97%, 0% 100%);
+        margin-top: 20px;
+    }
+
+
+    .last{
+        clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0% 100%);
+    }
 }
 
 
